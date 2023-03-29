@@ -1,4 +1,4 @@
-Task: To use proovide data in json format to depict charts based on various data attributes.
+Task: To use provided data in json format and depict charts based on various data attributes.
 
 Solution Description: The project uses Wine-Data.json as data source and Echarts-for-reacts as chart cretaing library.
 
