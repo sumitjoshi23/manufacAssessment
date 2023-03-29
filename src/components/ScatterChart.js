@@ -1,14 +1,6 @@
 import ReactEcharts from "echarts-for-react";
 import wineData from "../utils/Wine-Data.json";
 
-// Getting the array of color intensities of the wines and sorting them in ascending order
-const colorIntensity = wineData
-  .map((wine) => wine["Color intensity"])
-  .sort((a, b) => a - b);
-
-// Gets the array of hue of wines
-const hue = wineData.map((wine) => wine["Hue"]);
-
 // Scatter chart component to be displayed
 const ScatterChart = () => {
   const option = {
@@ -44,3 +36,11 @@ const ScatterChart = () => {
 };
 
 export default ScatterChart;
+
+// Getting the array of color intensities of the wines and sorting them in ascending order
+const colorIntensity = wineData
+  .map((wine) => wine["Color intensity"])
+  .sort((a, b) => a - b);
+
+// Gets the array of hue of wines
+const hue = wineData.map((wine) => wine["Hue"]);
