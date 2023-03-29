@@ -26,7 +26,8 @@ of Malic Acid is on the vertical axis.
 1. Clone the repository to your local machine using git clone https://github.com/sumitjoshi23/manufacAssessment.
 2. Navigate to the project directory with cd project.
 3. Run yarn install to install the dependencies.
-4. Run yarn start to start the development server.
-5. Open a web browser and navigate to http://localhost:3000 to view the application.
+4. To build the project run **yarn build**. This will create an optimized production build in the build directory.
+5. Run **yarn start** to start the development server.
+6. Open a web browser and navigate to http://localhost:3000 to view the application.
 
-
+**Build**
