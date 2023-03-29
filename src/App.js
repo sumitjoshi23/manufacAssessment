@@ -4,8 +4,9 @@ import ScatterChart from "./components/ScatterChart";
 
 const App = () => {
   return (
-    <div>
+    <div style={{ margin: "auto" }}>
       <ScatterChart />
+      <hr />
       <BarChart />
     </div>
   );

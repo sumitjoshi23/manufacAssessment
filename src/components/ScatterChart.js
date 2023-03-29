@@ -1,7 +1,10 @@
 import ReactEcharts from "echarts-for-react";
 import wineData from "../utils/Wine-Data.json";
+import { getScatterChartData } from "../utils/helper";
 
-// Scatter chart component to be displayed
+// Gets the  array having colorIntensity vs hue points to be shown on map
+const intensityVsHueData = getScatterChartData(wineData);
+
 const ScatterChart = () => {
   const option = {
     title: {
@@ -14,21 +17,21 @@ const ScatterChart = () => {
     tooltip: {},
     xAxis: {
       name: "Color intensity",
-      data: colorIntensity,
       nameGap: 30,
       nameLocation: "middle",
+      type: "value",
     },
     yAxis: {
-      type: "value",
       name: "Hue",
-      nameLocation: "middle",
       nameGap: 40,
+      nameLocation: "middle",
+      type: "value",
     },
     series: [
       {
         name: "Color Intensity vs Hue",
         type: "scatter",
-        data: hue,
+        data: intensityVsHueData,
       },
     ],
   };
@@ -36,11 +39,3 @@ const ScatterChart = () => {
 };
 
 export default ScatterChart;
-
-// Getting the array of color intensities of the wines and sorting them in ascending order
-const colorIntensity = wineData
-  .map((wine) => wine["Color intensity"])
-  .sort((a, b) => a - b);
-
-// Gets the array of hue of wines
-const hue = wineData.map((wine) => wine["Hue"]);
