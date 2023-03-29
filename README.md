@@ -8,15 +8,15 @@ Each object contains data of several wines. The data is required to be used to p
 vertical axis. 
 
    A look at the scatter plot is shown below:
-![image](https://user-images.githubusercontent.com/127792828/228662436-06935a5f-1f8a-42cf-b55c-bd23d0486b83.png)
-
-
+![image](https://user-images.githubusercontent.com/127792828/228679164-1460e266-7524-4002-b936-441ecd15b3b2.png)
 
 2. Second Use case: Bar chart to made for “Alcohol” against average of “Malic Acid” . Alcohol category is used on the horizontal axis and the average
 of Malic Acid is on the vertical axis.
 
    A look at the scatter plot is shown below:
-![image](https://user-images.githubusercontent.com/127792828/228665795-c295b85d-661b-4893-8047-1cbecfbf326e.png)
+![image](https://user-images.githubusercontent.com/127792828/228679207-3b9917e1-6c63-4d60-a874-093f70766c29.png)
+
+
 
 **Prerequisites**:
 1. Node.js and npm installed on your machine.
