@@ -18,3 +18,15 @@ of Malic Acid is on the vertical axis.
    A look at the scatter plot is shown below:
 ![image](https://user-images.githubusercontent.com/127792828/228665795-c295b85d-661b-4893-8047-1cbecfbf326e.png)
 
+Prerequisites:
+Node.js and npm installed on your machine.
+Yarn package manager installed on your machine.
+
+Installation:
+Clone the repository to your local machine using git clone https://github.com/sumitjoshi23/manufacAssessment.
+Navigate to the project directory with cd project.
+Run yarn install to install the dependencies.
+Run yarn start to start the development server.
+Open a web browser and navigate to http://localhost:3000 to view the application.
+
+
