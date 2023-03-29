@@ -4,7 +4,7 @@ import ScatterChart from "./components/ScatterChart";
 
 const App = () => {
   return (
-    <div style={{ margin: "auto" }}>
+    <div>
       <ScatterChart />
       <hr />
       <BarChart />
