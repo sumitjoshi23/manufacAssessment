@@ -4,13 +4,13 @@
 
 Each object contains data of several wines. The data is required to be used to plot the charts
 
-1. First Use Case: Scatter plot to made for "Color Intensity" against "Hue". Color intensity is used on the horizontal axis and Hue is on the
+1. First Use Case: Scatter plot to be made for "Color Intensity" against "Hue". Color intensity is used on the horizontal axis and Hue is on the
 vertical axis. 
 
    A look at the scatter plot is shown below:
 ![image](https://user-images.githubusercontent.com/127792828/228679164-1460e266-7524-4002-b936-441ecd15b3b2.png)
 
-2. Second Use case: Bar chart to made for “Alcohol” against average of “Malic Acid” . Alcohol category is used on the horizontal axis and the average
+2. Second Use case: Bar chart to made be for “Alcohol” against average of “Malic Acid” . Alcohol category is used on the horizontal axis and the average
 of Malic Acid is on the vertical axis.
 
    A look at the scatter plot is shown below:
